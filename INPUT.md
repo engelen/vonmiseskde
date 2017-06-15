@@ -13,4 +13,4 @@ Currently, no installation scripts are provided. To use the module, simply clone
 The KDE is automatically constructed on instantiating `VonMisesKDE`, which takes `data`, `weights` and `kappa` ($\kappa$) as its arguments. The KDE can then be evaluated at any point using its `evaluate` method, which accepts array-like input.
 
 ## Examples
-An visualized example is provided in a notebook [here](https://github.com/engelen/vonmiseskde/blob/master/examples/basic/Weighted%20Von%20Mises%20KDE.ipynb).
+A visualized example is provided in a notebook [here](https://github.com/engelen/vonmiseskde/blob/master/examples/basic/Weighted%20Von%20Mises%20KDE.ipynb).
