@@ -10,7 +10,7 @@ $$\hat{p}(x) = \sum\limits_{i=1}^n \alpha_i k_\textsc{vm}(x - x_i).$$
 Currently, no installation scripts are provided. To use the module, simply clone the repostiroy and add the `vonmiseskde` folder to your project directory. Then, use `import vonmiseskde`.
 
 ## Usage
-The KDE is automatically constructed on instantiating `VonMisesKDE`, which takes `data`, `weights` and `kappa` ($\kappa$) as its arguments.
+The KDE is automatically constructed on instantiating `VonMisesKDE`, which takes `data`, `weights` and `kappa` ($\kappa$) as its arguments. The KDE can then be evaluated at any point using its `evaluate` method, which accepts array-like input.
 
 ## Examples
-An visualized example is provided in a notebook [here](https://github.com/engelen/vonmiseskde/blob/master/examples/basic/Weighted%20Von%20Mises%20KDE.ipynb). The KDE can then be evaluated at any point using its `evaluate` method, which accepts array-like input.
+An visualized example is provided in a notebook [here](https://github.com/engelen/vonmiseskde/blob/master/examples/basic/Weighted%20Von%20Mises%20KDE.ipynb).
